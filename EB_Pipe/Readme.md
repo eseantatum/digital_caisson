@@ -5,16 +5,16 @@ This project contains AWS CDK scripts for setting up a CI/CD pipeline to deploy 
 ## Project Structure
 
 EB_Pipe/
-└── cicd_workshop/
-├── app-cdk/
-│ ├── app_cdk/
-│ │ ├── init.py
-│ │ ├── app_cdk_stack.py
-│ │ ├── eb_stack.py
-│ │ ├── ecr_cdk_stack.py
-│ │ └── pipeline_cdk_stack.py
-│ ├── tests/
-│ └── app.py
+- └── cicd_workshop/
+- ├── app-cdk/
+- │ ├── app_cdk/
+- │ │ ├── init.py
+- │ │ ├── app_cdk_stack.py
+- │ │ ├── eb_stack.py
+- │ │ ├── ecr_cdk_stack.py
+- │ │ └── pipeline_cdk_stack.py
+- │ ├── tests/
+- │ └── app.py
 
 diff
 
