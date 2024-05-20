@@ -5,16 +5,16 @@ This project sets up a CI/CD pipeline using AWS CDK to manage the deployment of 
 ## Project Structure
 
 ECR_pipe/
-├── cicd_workshop/
-│ ├── app-cdk/
-│ │ ├── app.py
-│ │ ├── app_cdk/
-│ │ │ ├── app_cdk_stack.py
-│ │ │ ├── ecr_cdk_stack.py
-│ │ │ ├── pipeline_cdk_stack.py
-│ │ └── readme.md
-│ ├── buildspec_docker.yml
-│ └── buildspec_test.yml
+- ├── cicd_workshop/
+- │ ├── app-cdk/
+- │ │ ├── app.py
+- │ │ ├── app_cdk/
+- │ │ │ ├── app_cdk_stack.py
+- │ │ │ ├── ecr_cdk_stack.py
+- │ │ │ ├── pipeline_cdk_stack.py
+- │ │ └── readme.md
+- │ ├── buildspec_docker.yml
+- │ └── buildspec_test.yml
 
 markdown
 
